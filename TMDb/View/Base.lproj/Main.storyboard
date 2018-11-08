@@ -49,7 +49,7 @@
                                 </constraints>
                                 <size key="customSize" width="113" height="170"/>
                                 <connections>
-                                    <segue destination="T1C-HM-UVe" kind="show" identifier="toDetailView" id="L5d-GP-ny1"/>
+                                    <segue destination="T1C-HM-UVe" kind="show" identifier="toDetailMovieSegue" id="Akh-wf-us2"/>
                                 </connections>
                             </collectionViewCell>
                         </cells>
@@ -72,15 +72,45 @@
             <objects>
                 <viewController id="T1C-HM-UVe" customClass="DetailMovieViewController" customModule="TMDb" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="b4L-zW-6ca">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="1000"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="htt-wP-X3Y">
+                                <rect key="frame" x="0.0" y="44" width="375" height="907"/>
+                                <subviews>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="awQ-wA-Ooj">
+                                        <rect key="frame" x="0.0" y="0.0" width="375" height="1000"/>
+                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" priority="750" constant="1000" id="VLg-6U-EwZ"/>
+                                            <constraint firstAttribute="width" constant="375" id="iHu-Zf-oeU"/>
+                                        </constraints>
+                                    </view>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstItem="awQ-wA-Ooj" firstAttribute="leading" secondItem="htt-wP-X3Y" secondAttribute="leading" id="5BW-w5-JKM"/>
+                                    <constraint firstItem="awQ-wA-Ooj" firstAttribute="top" secondItem="htt-wP-X3Y" secondAttribute="top" id="Ebb-4l-tiW"/>
+                                    <constraint firstItem="awQ-wA-Ooj" firstAttribute="centerX" secondItem="htt-wP-X3Y" secondAttribute="centerX" id="JjP-Mn-NEm"/>
+                                    <constraint firstAttribute="trailing" secondItem="awQ-wA-Ooj" secondAttribute="trailing" id="Wmw-sK-xcq"/>
+                                    <constraint firstAttribute="bottom" secondItem="awQ-wA-Ooj" secondAttribute="bottom" id="m3e-cD-agu"/>
+                                </constraints>
+                            </scrollView>
+                        </subviews>
                         <color key="backgroundColor" red="0.0" green="0.83137254900000002" blue="0.50196078430000002" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstItem="bH8-Vm-ROQ" firstAttribute="bottom" secondItem="htt-wP-X3Y" secondAttribute="bottom" id="5AP-Ly-S2W"/>
+                            <constraint firstItem="htt-wP-X3Y" firstAttribute="top" secondItem="bH8-Vm-ROQ" secondAttribute="top" constant="-20" id="Oed-zE-yv4"/>
+                            <constraint firstItem="bH8-Vm-ROQ" firstAttribute="trailing" secondItem="htt-wP-X3Y" secondAttribute="trailing" id="qFd-QN-a83"/>
+                            <constraint firstItem="htt-wP-X3Y" firstAttribute="leading" secondItem="bH8-Vm-ROQ" secondAttribute="leading" id="zfK-KA-XnO"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="bH8-Vm-ROQ"/>
                     </view>
+                    <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+                    <size key="freeformSize" width="375" height="1000"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="kQs-PT-wEn" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2412" y="114"/>
+            <point key="canvasLocation" x="2567" y="264"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="cQV-q4-7nu">
