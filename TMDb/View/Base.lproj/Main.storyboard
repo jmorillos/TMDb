@@ -31,7 +31,7 @@
                                     <rect key="frame" x="0.0" y="0.0" width="113" height="170"/>
                                     <autoresizingMask key="autoresizingMask"/>
                                     <subviews>
-                                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Image" translatesAutoresizingMaskIntoConstraints="NO" id="SH0-Dy-0Le">
+                                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="ImageCell" translatesAutoresizingMaskIntoConstraints="NO" id="SH0-Dy-0Le">
                                             <rect key="frame" x="0.0" y="0.0" width="113" height="170"/>
                                             <constraints>
                                                 <constraint firstAttribute="height" constant="170" id="hD6-nh-Oyg"/>
@@ -107,6 +107,6 @@
         </scene>
     </scenes>
     <resources>
-        <image name="Image" width="113" height="170"/>
+        <image name="ImageCell" width="113" height="170"/>
     </resources>
 </document>
