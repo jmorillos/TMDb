@@ -12,6 +12,7 @@
 		1CDBEC362194EBB500AA270B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1CDBEC352194EBB500AA270B /* Assets.xcassets */; };
 		1CDBEC392194EBB500AA270B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1CDBEC372194EBB500AA270B /* LaunchScreen.storyboard */; };
 		1CDBEC412194EC4200AA270B /* HomeCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CDBEC402194EC4200AA270B /* HomeCollectionViewController.swift */; };
+		1CDBEC502194FE1F00AA270B /* DetailMovieViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CDBEC4F2194FE1F00AA270B /* DetailMovieViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		1CDBEC382194EBB500AA270B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1CDBEC3A2194EBB500AA270B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1CDBEC402194EC4200AA270B /* HomeCollectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeCollectionViewController.swift; sourceTree = "<group>"; };
+		1CDBEC4F2194FE1F00AA270B /* DetailMovieViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailMovieViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,6 +87,7 @@
 			isa = PBXGroup;
 			children = (
 				1CDBEC402194EC4200AA270B /* HomeCollectionViewController.swift */,
+				1CDBEC4F2194FE1F00AA270B /* DetailMovieViewController.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -184,6 +187,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				1CDBEC2F2194EBB300AA270B /* AppDelegate.swift in Sources */,
+				1CDBEC502194FE1F00AA270B /* DetailMovieViewController.swift in Sources */,
 				1CDBEC412194EC4200AA270B /* HomeCollectionViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
