@@ -82,10 +82,134 @@
                                 <subviews>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="awQ-wA-Ooj">
                                         <rect key="frame" x="0.0" y="0.0" width="375" height="1000"/>
+                                        <subviews>
+                                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ad4-Gn-2h9">
+                                                <rect key="frame" x="0.0" y="0.0" width="375" height="300"/>
+                                                <subviews>
+                                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="ImageCell" translatesAutoresizingMaskIntoConstraints="NO" id="iIl-cJ-PE6">
+                                                        <rect key="frame" x="16" y="20" width="150" height="260"/>
+                                                        <constraints>
+                                                            <constraint firstAttribute="height" constant="260" id="9c0-KY-ap9"/>
+                                                            <constraint firstAttribute="width" constant="150" id="any-Pu-cqJ"/>
+                                                        </constraints>
+                                                    </imageView>
+                                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" spacing="5" translatesAutoresizingMaskIntoConstraints="NO" id="YD5-yq-it8">
+                                                        <rect key="frame" x="181" y="20" width="174" height="166"/>
+                                                        <subviews>
+                                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Título" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="eG5-6R-Slu">
+                                                                <rect key="frame" x="0.0" y="0.0" width="174" height="23.5"/>
+                                                                <fontDescription key="fontDescription" name="Menlo-Bold" family="Menlo" pointSize="20"/>
+                                                                <color key="textColor" red="0.27077314260000002" green="0.83835524319999999" blue="0.41468617320000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                                <nil key="highlightedColor"/>
+                                                            </label>
+                                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Bohemian Rhapsody" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" minimumScaleFactor="0.55000000000000004" translatesAutoresizingMaskIntoConstraints="NO" id="UKe-vP-D70">
+                                                                <rect key="frame" x="0.0" y="28.5" width="174" height="23.5"/>
+                                                                <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="17"/>
+                                                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                                <nil key="highlightedColor"/>
+                                                            </label>
+                                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Director" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="tdU-kw-vGM">
+                                                                <rect key="frame" x="0.0" y="57" width="174" height="23.5"/>
+                                                                <fontDescription key="fontDescription" name="Menlo-Bold" family="Menlo" pointSize="20"/>
+                                                                <color key="textColor" red="0.27077314260000002" green="0.83835524319999999" blue="0.41468617320000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                                <nil key="highlightedColor"/>
+                                                            </label>
+                                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Bryan Singer" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="tAw-m5-mom">
+                                                                <rect key="frame" x="0.0" y="85.5" width="174" height="23.5"/>
+                                                                <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="17"/>
+                                                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                                <nil key="highlightedColor"/>
+                                                            </label>
+                                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Género" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bOh-H0-acO">
+                                                                <rect key="frame" x="0.0" y="114" width="174" height="23.5"/>
+                                                                <fontDescription key="fontDescription" name="Menlo-Bold" family="Menlo" pointSize="20"/>
+                                                                <color key="textColor" red="0.27077314260000002" green="0.83835524319999999" blue="0.41468617320000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                                <nil key="highlightedColor"/>
+                                                            </label>
+                                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Drama Música" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="lbg-ED-41S">
+                                                                <rect key="frame" x="0.0" y="142.5" width="174" height="23.5"/>
+                                                                <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="17"/>
+                                                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                                <nil key="highlightedColor"/>
+                                                            </label>
+                                                        </subviews>
+                                                    </stackView>
+                                                    <stackView opaque="NO" contentMode="scaleToFill" distribution="fillProportionally" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="G0g-KR-TkV">
+                                                        <rect key="frame" x="181" y="196" width="174" height="23.5"/>
+                                                        <subviews>
+                                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Duración" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wgv-1G-RPY">
+                                                                <rect key="frame" x="0.0" y="0.0" width="101" height="23.5"/>
+                                                                <fontDescription key="fontDescription" name="Menlo-Bold" family="Menlo" pointSize="20"/>
+                                                                <color key="textColor" red="0.27077314260000002" green="0.83835524319999999" blue="0.41468617320000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                                <nil key="highlightedColor"/>
+                                                            </label>
+                                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="2h 15m" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="iVE-Ey-pbJ">
+                                                                <rect key="frame" x="109" y="0.0" width="65" height="23.5"/>
+                                                                <fontDescription key="fontDescription" name="Menlo-Regular" family="Menlo" pointSize="17"/>
+                                                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                                <nil key="highlightedColor"/>
+                                                            </label>
+                                                        </subviews>
+                                                    </stackView>
+                                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xZx-64-Vv0">
+                                                        <rect key="frame" x="181" y="232" width="174" height="48"/>
+                                                        <color key="backgroundColor" red="0.27077314260000002" green="0.83835524319999999" blue="0.41468617320000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                        <fontDescription key="fontDescription" name="Futura-Bold" family="Futura" pointSize="17"/>
+                                                        <state key="normal" title="Ver Trailer">
+                                                            <color key="titleColor" red="0.50196078431372548" green="0.36078431372549019" blue="0.90588235294117647" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                        </state>
+                                                    </button>
+                                                </subviews>
+                                                <color key="backgroundColor" red="0.25882352941176467" green="0.25882352941176467" blue="0.25882352941176467" alpha="1" colorSpace="calibratedRGB"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="trailing" secondItem="YD5-yq-it8" secondAttribute="trailing" constant="20" id="4EZ-y4-MmR"/>
+                                                    <constraint firstItem="iIl-cJ-PE6" firstAttribute="top" secondItem="ad4-Gn-2h9" secondAttribute="top" constant="20" id="MRd-lx-746"/>
+                                                    <constraint firstItem="iIl-cJ-PE6" firstAttribute="leading" secondItem="ad4-Gn-2h9" secondAttribute="leading" constant="16" id="Nt1-EU-L8P"/>
+                                                    <constraint firstItem="xZx-64-Vv0" firstAttribute="leading" secondItem="iIl-cJ-PE6" secondAttribute="trailing" constant="15" id="Yrb-5X-IPZ"/>
+                                                    <constraint firstItem="G0g-KR-TkV" firstAttribute="top" secondItem="YD5-yq-it8" secondAttribute="bottom" constant="10" id="aRF-sj-KV0"/>
+                                                    <constraint firstAttribute="height" constant="300" id="aSJ-oc-kq8"/>
+                                                    <constraint firstAttribute="bottom" secondItem="iIl-cJ-PE6" secondAttribute="bottom" constant="20" id="cdF-27-vIS"/>
+                                                    <constraint firstAttribute="trailing" secondItem="xZx-64-Vv0" secondAttribute="trailing" constant="20" id="csw-Cx-323"/>
+                                                    <constraint firstItem="xZx-64-Vv0" firstAttribute="top" secondItem="G0g-KR-TkV" secondAttribute="bottom" constant="12.5" id="dTd-rh-P8i"/>
+                                                    <constraint firstItem="G0g-KR-TkV" firstAttribute="leading" secondItem="iIl-cJ-PE6" secondAttribute="trailing" constant="15" id="gWm-k6-56A"/>
+                                                    <constraint firstItem="YD5-yq-it8" firstAttribute="leading" secondItem="iIl-cJ-PE6" secondAttribute="trailing" constant="15" id="hMH-yb-431"/>
+                                                    <constraint firstItem="YD5-yq-it8" firstAttribute="top" secondItem="ad4-Gn-2h9" secondAttribute="top" constant="20" id="l8a-cR-dch"/>
+                                                    <constraint firstAttribute="bottom" secondItem="xZx-64-Vv0" secondAttribute="bottom" constant="20" id="liX-h4-bGz"/>
+                                                    <constraint firstAttribute="trailing" secondItem="G0g-KR-TkV" secondAttribute="trailing" constant="20" id="thc-PH-8D9"/>
+                                                </constraints>
+                                            </view>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="General" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="v7H-4h-QvW">
+                                                <rect key="frame" x="16" y="308" width="343" height="20.5"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                <color key="textColor" red="0.27077314260000002" green="0.83835524319999999" blue="0.41468617320000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="justified" translatesAutoresizingMaskIntoConstraints="NO" id="3Kw-FT-4er">
+                                                <rect key="frame" x="16" y="336.5" width="343" height="526"/>
+                                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="526" id="1Zi-pD-lDn"/>
+                                                    <constraint firstAttribute="width" constant="343" id="TAs-b7-5BB"/>
+                                                </constraints>
+                                                <mutableString key="text">Bohemian Rhapsody es una rotunda y sonora celebración de Queen, de su música y de su extraordinario cantante Freddie Mercury, que desafió estereotipos e hizo añicos tradiciones para convertirse en uno de los showmans más queridos del mundo. La película plasma el meteórico ascenso al olimpo de la música de la banda a través de sus icónicas canciones y su revolucionario sonido, su crisis cuando el estilo de vida de Mercury estuvo fuera de control, y su triunfal reunión en la víspera del Live Aid, en la que Mercury, mientras sufría una enfermedad que amenazaba su vida, lidera a la banda en uno de los conciertos de rock más grandes de la historia. Veremos cómo se cimentó el legado de una banda que siempre se pareció más a una familia, y que continúa inspirando a propios y extraños, soñadores y amantes de la música hasta nuestros días.</mutableString>
+                                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="17"/>
+                                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                            </textView>
+                                        </subviews>
                                         <color key="backgroundColor" red="0.1999814510345459" green="0.20001032948493958" blue="0.19997167587280273" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <constraints>
+                                            <constraint firstItem="ad4-Gn-2h9" firstAttribute="leading" secondItem="awQ-wA-Ooj" secondAttribute="leading" id="0T2-g4-b75"/>
+                                            <constraint firstItem="v7H-4h-QvW" firstAttribute="top" secondItem="ad4-Gn-2h9" secondAttribute="bottom" constant="8" id="5DI-ND-iGh"/>
+                                            <constraint firstItem="3Kw-FT-4er" firstAttribute="top" secondItem="v7H-4h-QvW" secondAttribute="bottom" constant="8" id="7hH-q8-6mP"/>
+                                            <constraint firstAttribute="trailing" secondItem="v7H-4h-QvW" secondAttribute="trailing" constant="16" id="7wq-6A-cb1"/>
                                             <constraint firstAttribute="height" priority="750" constant="1000" id="VLg-6U-EwZ"/>
+                                            <constraint firstItem="v7H-4h-QvW" firstAttribute="leading" secondItem="awQ-wA-Ooj" secondAttribute="leading" constant="16" id="Y8q-RL-82U"/>
+                                            <constraint firstAttribute="trailing" secondItem="ad4-Gn-2h9" secondAttribute="trailing" id="Y9w-vg-l4d"/>
+                                            <constraint firstItem="3Kw-FT-4er" firstAttribute="leading" secondItem="awQ-wA-Ooj" secondAttribute="leading" constant="16" id="d5q-PH-Na0"/>
                                             <constraint firstAttribute="width" constant="375" id="iHu-Zf-oeU"/>
+                                            <constraint firstAttribute="trailing" secondItem="3Kw-FT-4er" secondAttribute="trailing" constant="16" id="ljU-J0-Wli"/>
+                                            <constraint firstItem="ad4-Gn-2h9" firstAttribute="top" secondItem="awQ-wA-Ooj" secondAttribute="top" id="uod-q5-itQ"/>
                                         </constraints>
                                     </view>
                                 </subviews>
@@ -98,7 +222,7 @@
                                 </constraints>
                             </scrollView>
                         </subviews>
-                        <color key="backgroundColor" red="0.0" green="0.83137254900000002" blue="0.50196078430000002" alpha="1" colorSpace="calibratedRGB"/>
+                        <color key="backgroundColor" red="0.047058823530000002" green="0.18039215689999999" blue="0.1764705882" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <color key="tintColor" red="0.0" green="0.83137254900000002" blue="0.50196078430000002" alpha="1" colorSpace="calibratedRGB"/>
                         <constraints>
                             <constraint firstItem="bH8-Vm-ROQ" firstAttribute="bottom" secondItem="htt-wP-X3Y" secondAttribute="bottom" id="5AP-Ly-S2W"/>
@@ -113,7 +237,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="kQs-PT-wEn" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2567" y="264"/>
+            <point key="canvasLocation" x="2565.5999999999999" y="263.56821589205401"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="cQV-q4-7nu">
