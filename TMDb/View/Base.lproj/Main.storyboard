@@ -153,10 +153,10 @@
                                                     </stackView>
                                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xZx-64-Vv0">
                                                         <rect key="frame" x="181" y="232" width="174" height="48"/>
-                                                        <color key="backgroundColor" red="0.27077314260000002" green="0.83835524319999999" blue="0.41468617320000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                                        <fontDescription key="fontDescription" name="Futura-Bold" family="Futura" pointSize="17"/>
+                                                        <color key="backgroundColor" red="0.093073584139347076" green="0.14159396290779114" blue="0.24732804298400879" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                        <fontDescription key="fontDescription" name="Futura-Bold" family="Futura" pointSize="21"/>
                                                         <state key="normal" title="Ver Trailer">
-                                                            <color key="titleColor" red="0.50196078431372548" green="0.36078431372549019" blue="0.90588235294117647" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                            <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                         </state>
                                                     </button>
                                                 </subviews>
@@ -178,14 +178,14 @@
                                                     <constraint firstAttribute="trailing" secondItem="G0g-KR-TkV" secondAttribute="trailing" constant="20" id="thc-PH-8D9"/>
                                                 </constraints>
                                             </view>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="General" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="v7H-4h-QvW">
-                                                <rect key="frame" x="16" y="308" width="343" height="20.5"/>
-                                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Sinopsis" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="v7H-4h-QvW">
+                                                <rect key="frame" x="16" y="308" width="343" height="23.5"/>
+                                                <fontDescription key="fontDescription" name="Menlo-Bold" family="Menlo" pointSize="20"/>
                                                 <color key="textColor" red="0.27077314260000002" green="0.83835524319999999" blue="0.41468617320000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="justified" translatesAutoresizingMaskIntoConstraints="NO" id="3Kw-FT-4er">
-                                                <rect key="frame" x="16" y="336.5" width="343" height="526"/>
+                                                <rect key="frame" x="16" y="339.5" width="343" height="526"/>
                                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 <constraints>
                                                     <constraint firstAttribute="height" constant="526" id="1Zi-pD-lDn"/>
